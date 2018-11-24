@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 100%;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-family: arial;
+}
+
+.page-header{
+  padding-top: ;
+  padding-left: ;
+  text-align: ;
+  margin-right: ;
+  margin-left: ;
+}
+
+.page-header nav a{
+  padding-right: ;
+  text-align: ;
+  font-size: ;
+  font-weight: ;
+  color:;
+  margin-left: ;
+  text-decoration: ;
+}
+
+.page-mainer{
+  flex: 1;
+  text-align: ;
+  margin-top: ;
+  margin-right: ;
+}
+
+.page-footer{
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 10px;
+}
+
+.page-container{
+  position: relative;
+  height: 100%;
+}
+
+.page-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
